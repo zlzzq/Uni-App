@@ -1,0 +1,208 @@
+/* *index.wxss*/
+.photo{
+  display: block;
+  width:90%;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+}
+.cover-info{
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+.cover-name {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.cover-spell {
+  font-size: 20px;
+}
+.big-circle {
+  background:rgba(0,165, 34, 0.7);
+  width: 260px;
+  height: 260px;
+  border-radius: 130px;
+  position: absolute;
+  left: -130px;
+  top: 110px;
+}
+.med-circle {
+  background:rgba(0,165, 34, 0.7);
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  position: absolute;
+  right: -80px;
+  top: 110px;
+}
+.sma-circle {
+  background:rgba(0,165, 34, 0.7);
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  position: absolute;
+  left: -10px;
+  bottom: 110px;
+}
+.cover-work{
+  position: absolute;
+  bottom: 200px;
+  padding:15px 0;
+  text-align: center;
+  background-color: rgba(0, 0,0, 0.2);
+  width:100%;
+}
+.cover-job{
+  display: block;
+  color: #fff;
+  font-size:30px;
+  font-weight: bold;
+}
+.cover-exp{
+  display: block;
+  color: #fff;
+  font-size:20px;
+}
+.navigation{
+  position: absolute;
+  top:40px;
+  right:10px;
+  font-size: 18px;
+}
+.arrow-right{
+  width:20px;
+  height: 10px;
+}
+.resume {
+  margin: 0 20px;
+}
+.section {
+  padding-bottom: 30px;
+  margin: 0 20px;
+}
+.section-info {
+  display: flex;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin: 10px 0;
+}
+.section-seq {
+  background: #444;
+  height: 22px;
+  width:22px;
+  font-size:10px;
+  color: #fff;
+  text-align: center;
+  line-height: 22px;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.section-title {
+  font-size: 20px;
+}
+.column {
+  font-size:15px;
+  border-bottom: 1px dashed #333;
+  padding: 10px 0;
+}
+.col-2 {
+  column-count: 2;
+
+}
+.col-1 {
+  column-count: 1;
+}
+.info {
+  display: block;
+}
+.skill {
+  padding: 5px 0; 
+}
+.skill-name {
+  font-size:15px;
+  display: block;
+  margin-bottom: 5px;
+}
+.score {
+
+}
+.education, .work, .project, .introduction{
+  border-bottom: 1px dashed #999;
+  margin-bottom: 30px;
+}
+.education:last-of-type {
+  border-bottom: none;
+}
+.work:last-of-type {
+  border-bottom: none;
+}
+.project:last-of-type {
+  border-bottom: none;
+}
+.introduction:last-of-type {
+  border-bottom: none;
+}
+.school, .company, .project-name{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.icon_school{
+  width:26px;
+  height: 26px;
+  vertical-align: -6px;
+  margin-right: 5px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.icon_book {
+  width:17px;
+  height: 17px;
+  vertical-align: -2px;
+  margin-right: 7px;
+  padding-left: 3px;
+}
+.icon_calendar {
+  width:17px;
+  height:17px;
+  vertical-align: -2px;
+  margin-right: 5px;
+}
+.desc{
+  color: #999;
+  line-height: 1.5;
+}
+.icon_company {
+  width:22px;
+  height: 22px;
+  vertical-align: -4px;
+  margin-right: 5px;
+}
+.icon_job {
+  width:18px;
+  height:18px;
+  vertical-align: -3px;
+  margin-right: 3px;
+}
+.page {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.icon_computer{
+  width:26px;
+  height:26px;
+  vertical-align: -6px;
+  margin-right: 5px;
+}
